@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/scotty-clothing/static/css/main.15c50361.chunk.css",
+    "main.js": "/scotty-clothing/static/js/main.86efeee3.chunk.js",
+    "main.js.map": "/scotty-clothing/static/js/main.86efeee3.chunk.js.map",
+    "runtime~main.js": "/scotty-clothing/static/js/runtime~main.e551b6db.js",
+    "runtime~main.js.map": "/scotty-clothing/static/js/runtime~main.e551b6db.js.map",
+    "static/js/2.b9aa6595.chunk.js": "/scotty-clothing/static/js/2.b9aa6595.chunk.js",
+    "static/js/2.b9aa6595.chunk.js.map": "/scotty-clothing/static/js/2.b9aa6595.chunk.js.map",
+    "index.html": "/scotty-clothing/index.html",
+    "precache-manifest.f3be25516108bce465b15067262b8bc0.js": "/scotty-clothing/precache-manifest.f3be25516108bce465b15067262b8bc0.js",
+    "service-worker.js": "/scotty-clothing/service-worker.js",
+    "static/css/main.15c50361.chunk.css.map": "/scotty-clothing/static/css/main.15c50361.chunk.css.map",
+    "static/media/crown.ed28accb.svg": "/scotty-clothing/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/scotty-clothing/static/media/shopping-bag.30f07071.svg"
+  }
+}
