@@ -1,5 +1,6 @@
 orbs:
   react: thefrontside/react@0.2.0
+  cypress: cypress-io/cypress@1
 version: 2.1
 workflows:
   push:
@@ -14,3 +15,9 @@ workflows:
       - react/coverage:
           requires:
             - react/install
+  build:
+    jobs:
+      - cypress/run:
+          executor: cypress/browsers-chrome69
+          browser: chrome
+          start: npm start
