@@ -11,7 +11,7 @@ import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import './header.styles.scss';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
-const Header = ({ currentUser, hidden }) => (
+export const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
@@ -25,7 +25,7 @@ const Header = ({ currentUser, hidden }) => (
       </Link>
       {
         currentUser ?
-          <div className='nav__item' onClick={() => auth.signOut()}>SIGN OUT</div>
+          <div data-test="signout" className='nav__item' onClick={() => auth.signOut()}>SIGN OUT</div>
           :
           <Link className='nav__item' to='/signin'>SIGN IN</Link>
       }
