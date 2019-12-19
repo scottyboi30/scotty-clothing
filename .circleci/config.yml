@@ -12,13 +12,13 @@ workflows:
       - react/test:
           requires:
             - react/install
-      - react/coverage:
-          requires:
-            - react/install
-      - cypress/run:
-          requires:
-            - react/test
-          executor: cypress/browsers-chrome69
-          browser: chrome
-          start: npm start
-          yarn: true
+      # - react/coverage:
+      #     requires:
+      #       - react/install
+      # - cypress/run:
+      #     requires:
+      #       - react/test
+      #     executor: cypress/browsers-chrome69
+      #     browser: chrome
+      #     start: npm start
+      #     yarn: true
