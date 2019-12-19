@@ -3,7 +3,7 @@ orbs:
   cypress: cypress-io/cypress@1
 version: 2.1
 workflows:
-  push:
+  build-and-test:
     jobs:
       - react/install
       - react/eslint:
@@ -15,9 +15,9 @@ workflows:
       - react/coverage:
           requires:
             - react/install
-  build:
-    jobs:
       - cypress/run:
+          requires:
+            - react/test
           executor: cypress/browsers-chrome69
           browser: chrome
           start: npm start
