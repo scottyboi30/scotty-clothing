@@ -21,3 +21,4 @@ workflows:
           executor: cypress/browsers-chrome69
           browser: chrome
           start: npm start
+          yarn: true
